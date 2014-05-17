@@ -15,8 +15,8 @@ layout: page
 
 我的联系方式是：
 
-微信/QQ：354743080
+微信/QQ：0x1524f328
 
-邮件：354743080@qq.com
+邮件：0x1524f328@qq.com
 
 我的博客永久地址是：<http://sinnera.github.io/>
