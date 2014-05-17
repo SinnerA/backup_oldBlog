@@ -1,11 +1,11 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "rusty shutter"
+name: "dasper sky"
 markdown: rdiscount
 
-author: "wayne"
-atom-baseurl: "http://lhzhang.com"
+author: "sinnera"
+atom-baseurl: "http://sinnera.github.io"
 disqus: "gopherwood"
 
 navigations:
