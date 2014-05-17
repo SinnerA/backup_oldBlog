@@ -2,13 +2,9 @@
 title: gallery
 layout: page
 ---
-### Gallery
-
 <div class="highslide-gallery">
 
-*   [
-		![](highslide/images/thumbs/IMG_0669.JPG)
-	](highslide/images/large/IMG_0669.JPG)
+*   [![](highslide/images/thumbs/IMG_0669.JPG)](highslide/images/large/IMG_0669.JPG)
 *   [
 		![](highslide/images/thumbs/IMG_0686.JPG)
 	](highslide/images/large/IMG_0686.JPG)
