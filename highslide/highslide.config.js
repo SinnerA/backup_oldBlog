@@ -13,7 +13,7 @@ hs.captionOverlay.position = 'below';
 hs.addSlideshow({
 	slideshowGroup: 'group1',
 	interval: 5000,
-	repeat: false,
+	repeat: true,
 	useControls: true,
 	fixedControls: 'fit',
 	overlayOptions: {
@@ -29,5 +29,6 @@ hs.addSlideshow({
 // gallery config object
 var config1 = {
 	slideshowGroup: 'group1',
+	autoplay: true,
 	transitions: ['expand', 'crossfade']
 };
