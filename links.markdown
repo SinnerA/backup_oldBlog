@@ -15,5 +15,6 @@ layout: page
 [乱象，印迹](http://www.luanxiang.org/blog/)  
 [MacTalk-池建强的随想录](http://macshuo.com/)  
 [借助开源项目，学习软件开发](http://sbbs.me/view_article/50606ecb08158efb55000009)
+[learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
 *# sort*
