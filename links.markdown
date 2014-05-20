@@ -20,7 +20,7 @@ layout: page
 [v2ex](http://www.v2ex.com/)  
 [ACM算法分类](http://bbs.byr.cn/#!article/ACM_ICPC/11777)  
 [余果](http://yuguo.us/)  
-[happycasts github](http://happycasts.net/?utf8=%E2%9C%93&search=github)  
+[HappyCasts github](http://happycasts.net/?utf8=%E2%9C%93&search=github)  
 
 
 *# sort*
