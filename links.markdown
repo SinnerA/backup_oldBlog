@@ -16,6 +16,8 @@ layout: page
 [MacTalk-池建强的随想录](http://macshuo.com/)  
 [借助开源项目，学习软件开发](http://sbbs.me/view_article/50606ecb08158efb55000009)  
 [learn Git Branching](http://pcottle.github.io/learnGitBranching/)  
+[北邮人论坛](http://bbs.byr.cn/#!board/Job)  
+[v2ex](http://www.v2ex.com/)  
 
 
 *# sort*
