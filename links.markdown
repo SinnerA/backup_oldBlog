@@ -19,6 +19,7 @@ layout: page
 [北邮人论坛](http://bbs.byr.cn/#!board/Job)  
 [v2ex](http://www.v2ex.com/)  
 [ACM算法分类](http://bbs.byr.cn/#!article/ACM_ICPC/11777)  
+[余果](http://yuguo.us/)
 
 
 *# sort*
