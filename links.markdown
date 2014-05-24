@@ -3,6 +3,7 @@ title: links
 layout: page
 ---
 
+[书单](http://blog.jobbole.com/5886/)  
 [Startup News](http://news.dbanotes.net/)  
 [简书](http://jianshu.io/)  
 [知乎](http://www.zhihu.com/)  
