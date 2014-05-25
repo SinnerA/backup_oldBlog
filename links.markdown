@@ -22,6 +22,7 @@ layout: page
 [ACM算法分类](http://bbs.byr.cn/#!article/ACM_ICPC/11777)  
 [余果](http://yuguo.us/)  
 [HappyCasts github](http://happycasts.net/?utf8=%E2%9C%93&search=github)  
+[简明 Python 教程](http://sebug.net/paper/python/index.html)  
 
 
 *# sort*
