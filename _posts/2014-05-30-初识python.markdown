@@ -1,0 +1,89 @@
+---
+title: 初识python
+layout: post
+tags:
+  - python
+
+---
+####**选用PyCharm作为IDE**
+
+1：设置主题：Settings-->Editor-->Colors & Fonts-->Scheme name: Darcula
+
+2：显示行号：File --> Settings -->Editor -->Appearance，之后勾选Show Line Numbers
+
+3："hello_world.py"：
+    #__author__ = 'SinnerA'
+    #coding = utf-8
+    
+    print "Hello World!"
+在Run --> Edit Configurations配置界面里，点击绿色的加号，新建一个配置项，并选择python。在右边的配置界面里：
+    Name一栏里写个名字，比如Hello；
+    点击Scrip选项，找到刚才我们写的hello_word.py
+
+4：设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
+
+####**引入新的安装模块**
+
+    python setup.py build
+    python setup.py install
+
+####**python爬虫**
+
+爬虫就是在网页上抓取信息，通过URL从一个网页到另一个网页，顺着URL爬行，故名“爬虫”。网页抓取，就是把URL地址中指定的网络资源从网络流中读取出来，保存到本地。类似于使用程序模拟浏览器的功能，把URL作为HTTP请求的内容发送到服务器端，然后读取服务器端的响应资源。
+在Python中，我们使用urllib2这个组件来抓取网页。```urllib2```是Python的一个获取URLs(Uniform Resource Locators)的组件。
+```Beautiful Soup```是一个可以从HTML或XML文件中提取数据的Python库。它能够通过你喜欢的转换器实现惯用的文档导航，查找，修改文档的方式。Beautiful Soup会帮你节省数小时甚至数天的工作时间。
+下面是一个抓取“豆瓣妹子”图片的一个例子：
+
+    #coding=utf-8
+    import urllib2
+    from bs4 import BeautifulSoup
+    import socket
+    
+    baseurl = "http://dbmeizi.com/"
+    #伪装浏览器,以免被封
+    def user_agent(url):
+        req_header = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'}
+        req_timeout = 20
+        try:
+            req = urllib2.Request(url,None,req_header)
+            page = urllib2.urlopen(req,None,req_timeout)
+            html = page
+        except urllib2.URLError as e:
+            print e.messages
+        except socket.timeout as e:
+            user_agent(url)
+        return html
+    
+    def page_loop(pageid):
+        url = baseurl+'?p=%s'%pageid
+        print url
+        page = user_agent(url)
+        soup = BeautifulSoup(page)
+        total_img = 0
+        img = soup.find_all(['img'])
+        for myImg in img:
+            link = myImg.get('src')
+            total_img += 1
+            print link
+          #  content2 = urllib2.urlopen(link).read()
+            content2 = user_agent(link).read()
+            #这句代码直接从OSC上面弄下来的
+            #D:\myImgs是保存路径,你可以自己改成自己的,但是路径必须要自己创建好
+            with open(u'D:\myImgs'+'/'+link[-11:],'wb') as code:
+                code.write(content2)
+        print total_img
+        return total_img
+    page_start = 0
+    page_stop = 4
+    total = 0
+    for i in range(page_start,page_stop):
+        total+=page_loop(i)
+    
+    print total
+    #total就是统计下总共保存到本地的图片数量
+    
+####**python学习**
+[《简明python教程》](http://sebug.net/paper/python/)，简单快速了解python语法；
+[《python基础教程》](http://book.douban.com/subject/4866934/)：进一步系统全面地了解python，后面有实用样例练习；
+[《Dive Into Python》](http://woodpecker.org.cn/diveintopython/)：这是为有经验的程序员编写的一本 Python书。
+网络编程和文本处理，python爬虫，用Django写人人网应用......
