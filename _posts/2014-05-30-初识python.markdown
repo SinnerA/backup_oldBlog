@@ -6,6 +6,7 @@ tags:
 
 ---
 
+
 ---
 #### 选用PyCharm作为IDE
 
@@ -31,6 +32,7 @@ tags:
 
     python setup.py build
     python setup.py install
+
 ---
 #### python爬虫
 
@@ -90,6 +92,7 @@ tags:
     
     print total
     #total就是统计下总共保存到本地的图片数量
+
 ---
 #### python学习
 
