@@ -10,11 +10,11 @@ tags:
 ---
 #### 选用PyCharm作为IDE
 
-    1.  设置主题：Settings-->Editor-->Colors & Fonts-->Scheme name: Darcula
+1.  设置主题：Settings-->Editor-->Colors & Fonts-->Scheme name: Darcula
 
-    2.  显示行号：File --> Settings -->Editor -->Appearance，之后勾选Show Line Numbers
+2.  显示行号：File --> Settings -->Editor -->Appearance，之后勾选Show Line Numbers
 
-    3.  "hello_world.py"：
+3.  "hello_world.py"：
        
         #__author__ = 'SinnerA'
         #coding = utf-8
@@ -26,7 +26,7 @@ tags:
             -  Name一栏里写个名字，比如Hello；
             -  点击Scrip选项，找到刚才我们写的hello_word.py
  
-    4.  设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
+4.  设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
 
 ---
 #### 引入新的安装模块
