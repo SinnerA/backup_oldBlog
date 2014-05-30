@@ -26,12 +26,11 @@ tags:
 
 4. 设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
 
-
 #### 引入新的安装模块
 
     python setup.py build
     python setup.py install
-
+  
 #### python爬虫
 
 爬虫就是在网页上抓取信息，通过URL从一个网页到另一个网页，顺着URL爬行，故名“爬虫”。网页抓取，就是把URL地址中指定的网络资源从网络流中读取出来，保存到本地。类似于使用程序模拟浏览器的功能，把URL作为HTTP请求的内容发送到服务器端，然后读取服务器端的响应资源。
@@ -89,7 +88,7 @@ tags:
     
     print total
     #total就是统计下总共保存到本地的图片数量
-
+  
 #### python学习
 
 - [《简明python教程》](http://sebug.net/paper/python/)，简单快速了解python语法；
