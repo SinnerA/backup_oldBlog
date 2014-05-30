@@ -27,6 +27,7 @@ tags:
     -  点击Scrip选项，找到刚才我们写的hello_word.py
 
 4.  设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
+
 ---
 #### 引入新的安装模块
 
