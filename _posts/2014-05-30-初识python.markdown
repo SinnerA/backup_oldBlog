@@ -25,6 +25,10 @@ tags:
 
 4.  设置字体大小：File --> Settings -->Editor -->Colors&Fonts -->Font，先“Save as”，才能设置字体大小
 
+5.  pyCharm连接github：File --> Settings -->Version Control -->Git and Github 都要设置
+                       VCS --> Import into Version Control --> Share project on Github
+
+
 
 #### 引入新的安装模块
 
